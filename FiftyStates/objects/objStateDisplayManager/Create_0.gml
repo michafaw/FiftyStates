@@ -6,3 +6,4 @@ stateButtonSpacing = 10;
 
 
 needsRefresh = true;
+needsInitialDataLoad = true;

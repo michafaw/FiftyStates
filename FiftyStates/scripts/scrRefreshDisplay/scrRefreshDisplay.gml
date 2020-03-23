@@ -10,16 +10,17 @@ with(objStateButton) {
 var count = array_length_1d(objStateData.status)
 
 var verticalSpacing = objStateDisplayManager.stateButtonHeight + objStateDisplayManager.stateButtonSpacing;
-var horizontalEdgeMargin = 20;
-var verticalStart = 100;
+var leftEdgeMargin = 30;
+var rightEdgeMargin = 0;
+var verticalStart = 275;
 var columnSize = 17;
 
-var availableWidth = room_width - 2*horizontalEdgeMargin;
+var availableWidth = room_width - (leftEdgeMargin + rightEdgeMargin)
 var numColumns = ceil(count/columnSize);
 var stateInstance;
 
 for(var i = 0; i < count; i++) {
-	var xx = horizontalEdgeMargin + floor(i/columnSize)*floor(availableWidth/numColumns)
+	var xx = leftEdgeMargin + floor(i/columnSize)*floor(availableWidth/numColumns)
 	var yy = verticalStart + (i%columnSize)*verticalSpacing
 	stateInstance = instance_create_layer(xx, yy, "Instances", objStateButton);	
 	stateInstance.index = i;

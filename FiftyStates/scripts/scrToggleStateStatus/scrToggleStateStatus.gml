@@ -15,4 +15,7 @@ if(objStateData.status[stateIndex] == 0)
 else
 	objStateData.status[stateIndex] = 0;
 	
+	
+
 scrSetNeedsRefreshDisplay();
+scrSaveData();
