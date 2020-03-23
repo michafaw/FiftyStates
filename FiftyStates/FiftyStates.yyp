@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4c950e08-36c4-4912-bf96-dca8ec419118",
+            "Value": {
+                "id": "26e1e95c-b81f-4676-a5ea-61edd87a3885",
+                "resourcePath": "objects\/objStateDisplay\/objStateDisplay.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "68485d7c-e7cb-4f92-8e87-c58b93ae252c",
             "Value": {
                 "id": "2af91695-705f-41f0-9c70-50cc6d948c31",
@@ -140,6 +148,14 @@
                 "id": "50e77c3a-ff84-4923-af6e-00e9887156bd",
                 "resourcePath": "views\/79297f0f-bc23-4dc6-a165-c44ee2353883.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e027149-5af0-45b2-80b4-c659efeb9ebb",
+            "Value": {
+                "id": "325f7ad2-18ea-49a1-ba7f-a3da2b9bde98",
+                "resourcePath": "objects\/objStateData\/objStateData.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -301,6 +317,22 @@
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f7b650ee-c616-41aa-93b1-031a7282a049",
+            "Value": {
+                "id": "dd75306c-744f-460c-a75e-38823e5b3fcc",
+                "resourcePath": "scripts\/scrLoadData\/scrLoadData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fb7d8c00-48e1-45d3-ab0c-1ff54eea507f",
+            "Value": {
+                "id": "532ae211-dee0-4c28-aec6-1ea9797490a6",
+                "resourcePath": "notes\/note0.yy",
+                "resourceType": "GMNotes"
+            }
         }
     ],
     "script_order": [
@@ -309,7 +341,8 @@
         "09e134bb-cece-4a03-a14b-4f2fe4539288",
         "98e735ee-788a-464b-ac3c-25ec3c631191",
         "d17af6ff-9650-413c-8345-0b0496ea1f25",
-        "6b2137d4-873b-4b7b-abb8-5a7501ec8448"
+        "6b2137d4-873b-4b7b-abb8-5a7501ec8448",
+        "f7b650ee-c616-41aa-93b1-031a7282a049"
     ],
     "tutorial": ""
 }

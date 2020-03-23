@@ -1,0 +1,26 @@
+Overall Design
+
+v1.0
+- Show states list with current status
+- Allow clicking on a state to change its status
+- Draw states differently when they have been spotted/non-spotted
+  - Slightly more transparent color + strikethrough
+- Save data, with version number in the file header
+
+
+v1.1
+- Split states into two different views, spotted and non-spotted
+- Split states over multiple pages (only showing from the appropriate spotted list)
+- Export file to Micha
+
+
+
+
+Code Design
+
+- Object to store data
+  - Handles save/load operations
+
+- Object to display state status
+- Object to allow clicking on state to change status
+	
